@@ -63,29 +63,6 @@ class _WeatherPageState extends State<WeatherPage>
     }
   }
 
-  // void _toggleFavourite() async {
-  //   setState(() {
-  //     _isFavourite = !_isFavourite;
-  //   });
-
-  //   try {
-  //     if (_isFavourite) {
-  //       await FavouriteService.saveFavouriteCity(cityName);
-  //     } else {
-  //       await FavouriteService.removeFavouriteCity(cityName);
-  //     }
-  //   } catch (e) {
-  //     print('Error toggling favourite: $e');
-  //   }
-  // }
-
-  // void _loadFavouriteStatus() async {
-  //   bool isFavourite = await FavouriteService.isFavouriteCity(cityName);
-  //   setState(() {
-  //     _isFavourite = isFavourite;
-  //   });
-  // }
-
   String getWeatherAnimation(String? mainCondition) {
     if (mainCondition == null) return 'assets/sunny.json';
 
