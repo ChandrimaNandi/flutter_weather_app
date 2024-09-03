@@ -13,12 +13,17 @@ This Weather App is a comprehensive Flutter project designed to provide users wi
 # Getting Started
 
 **Prerequisites**
+  
   Flutter SDK: Install Flutter
+  
   Dart SDK: Included with Flutter
 
 **Installation**
-  Clone the repository: git clone https://github.com/yourusername/weather_app.git
+  
+  Clone the repository: git clone https://github.com/ChandrimaNandi/flutter_weather_app.git
+  
   Navigate to the project directory: cd weather_app
+  
   Install dependencies: flutter pub get
   
 **Running the App**
@@ -27,20 +32,31 @@ This Weather App is a comprehensive Flutter project designed to provide users wi
 # Project Structure
 
 **lib/main.dart**: Entry point of the application.
+
 **lib/pages/**: Contains the main screens such as WeatherPage, FavouriteCitiesPage, SearchPage, and SplashScreen.
+
 **lib/models/**: Defines the data models, including Weather and FavouriteModel.
+
 **lib/service/**: Includes services for weather data retrieval and managing favorite cities.
+
 **lib/widgets/**: Custom widgets used throughout the app.
+
 **assets/:** Contains animation files and other assets.
 
 # Dependencies
 
 **flutter**: The framework itself.
+
 **provider**: State management.
+
 **geolocator**: For accessing the device's location.
+
 **geocoding**: For converting coordinates into readable addresses.
+
 **shared_preferences**: For storing favorite cities locally.
+
 **lottie**: For splash screen animations.
+
 **http**: For making network requests.
 
 # Demo Video of the app 
