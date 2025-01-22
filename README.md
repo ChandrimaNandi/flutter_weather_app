@@ -28,6 +28,10 @@ This Weather App is a comprehensive Flutter project designed to provide users wi
   
 **Running the App**
   Run the app on an emulator or physical device: flutter run
+
+  **Testing the App**
+- The project includes test files located in the `test` directory for unit testing and validation.
+- Run tests using: `flutter test`.
   
 # Project Structure
 
@@ -43,6 +47,7 @@ This Weather App is a comprehensive Flutter project designed to provide users wi
 
 **assets/:** Contains animation files and other assets.
 
+**test/**: Contains all test files for the application to ensure code reliability and correctness.
 # Dependencies
 
 **flutter**: The framework itself.
